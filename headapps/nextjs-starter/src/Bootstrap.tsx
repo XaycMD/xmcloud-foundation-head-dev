@@ -9,7 +9,7 @@ import { LayoutServicePageState, RenderingType } from '@sitecore-jss/sitecore-js
  * The Bootstrap component is the entry point for performing any initialization logic
  * that needs to happen early in the application's lifecycle.
  */
-// test comment
+// test comment RH
 const Bootstrap = (props: SitecorePageProps): JSX.Element | null => {
   // Browser ClientSDK init allows for page view events to be tracked
   useEffect(() => {
